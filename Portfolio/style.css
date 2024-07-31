@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.social-links i {
+  color: #fff;
+  margin: 0 5px;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#home {
+  background: linear-gradient(135deg, black 0%, black 100%);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#about,
+#projects,
+#contact {
+  background-color: black;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+#about p {
+  text-indent: 50px;
+  line-height: 1.8;
+  text-align: justify;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+.project {
+  background-color: black;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+.project h3 {
+  color: #ff6f61;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff6f61;
+  text-decoration: none;
+  border: 2px solid #ff6f61;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project a:hover {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+  background-color: #ff856d;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
